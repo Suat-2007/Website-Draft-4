@@ -1,0 +1,66 @@
+<!DOCTYPE    html>
+<html>
+   <head>
+	<title>My First Site </title>
+	<style>
+	    body{
+	background-color: lightblue;
+	}
+	h1{
+	background-color: lightblue;
+	border: 30px dotted black;
+	font-family:impact;
+	font-size:50px;
+	
+}
+	</style>
+    </head>
+	<script src ="script.js" defer></script>
+	<link href="styles.css" rel="stylesheet">
+    <body>
+		<ul class="tabs">
+			<li data-tab-target = "#home" class="active tab"> Home</li>
+			<li data-tab-target = "#home2"class="tab"> Data</li>
+			<li data-tab-target = "#home3"class="tab">  Analysis</li>
+		</ul>
+		<div class="tab-content">
+			<div id="home" data-tab-content class="active">
+			<h1><center> Suat's Website</center></h1>
+         <h2><center>By:Suat Tahsin</center></h2>
+	
+	<h2 style="padding-top: 90px;"><center>Subway Case Study(Intro)</center></h2>
+	<p><center>Hello My name is Suat Tahsin and I did a case study based on the NYC 6th train. I compiled a bunch of NYC subway stops zipcodes and using a website called niche, I found out the median houshold income and median rent for each zipcode.</center> </p>
+
+	<center><img src ="IMG1.png"></center>
+	<center><img src ="IMG2.png"></center>
+	<center><img src ="IMG3.png"></center>
+	<center><img src ="IMG4.png"></center>
+
+		</div>
+		<div id="home2" data-tab-content>
+			<h1><center>The Data</h1></center>
+			<center><h2>These are graphs I have made in python, using the matplot library.</h2></center>
+			<center><img src ="Niche Score Vs Median Rent.png"></center>
+			<center><img src ="Niche Score Vs Median Income2.png"></center>
+			<center><img src ="Niche Score Vs Walkability.png"></center>
+		</div>
+		<div id="home3" data-tab-content>
+			<center><h1>Analysis Of The Graph</h1></center>
+			<center><p1>In conclusion the first two graph shows a
+			decent correlation based on the niche ranking of best zip 
+			codes to raise a family in nyc and my two chosen relationships. 
+			However, from my data I did notice that a few of the places that have 
+			lower median household incomes and median rent prices actually ranked 
+			higher than some of the places with higher median rent prices and income. 
+			This indicates that while there may be a correlation, 
+			there are a few exceptions. In general though we wee that 
+			the zipcodes that are best placese for familly are the ones were 
+		rent prices are high, and median houshold income is high.</p1></center>
+		<center><h2>Code</h2></center>
+		<center><img src="IMG5.png"</center>
+		</div>
+	</div>
+
+</body>
+</html>
+
